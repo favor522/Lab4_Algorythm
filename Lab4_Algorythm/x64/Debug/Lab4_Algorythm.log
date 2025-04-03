@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\User\Desktop\C++2kurs\Algorythm and struct of data\Lab4\Lab4_Algorythm\Lab4_Algorythm\Main.cpp(20,3): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\User\Desktop\C++2kurs\Algorythm and struct of data\Lab4\Lab4_Algorythm\Lab4_Algorythm\Main.cpp(30,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Lab4_Algorythm.vcxproj -> C:\Users\User\Desktop\C++2kurs\Algorythm and struct of data\Lab4\Lab4_Algorythm\Lab4_Algorythm\x64\Debug\Lab4_Algorythm.exe
