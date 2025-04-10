@@ -5,32 +5,17 @@ using namespace std;
 
 void gui();
 
-void SortHora(int *Mas, int Rav[], int Big[], int Les[], int counter1, int counter2, int counter3) {
-	int Rav[sizeof(Mas) / 3];
-	int Big[sizeof(Mas) / 3];
-	int Les[sizeof(Mas) / 3];
-	for (int i = 0; i < sizeof(Mas); i++) {
-		int opora = Mas[0];
-		if (Mas[i] = opora) {
-			Rav[counter1] += Mas[i];
-			counter1++;
-		}
-		if (Mas[i] > opora) {
-			Big[counter2] += Mas[i];
-			counter2++
-		}
-		if (Mas[i] < opora) {
-			Les[counter3] += Mas[i];
-			counter3++;
-		}
+void SortHora(int Mas[], int firstel, int lastel) {
+	int i = firstel;
+	int j = lastel;
+	while (i = j - 1) {
+		for(i < )
 	}
-	SortHora(Mas, Rav, Big, Les, counter1, counter2, counter3);
-	SortHora(Mas, Rav, Big, Les, counter1, counter2, counter3);
 }
 
 void Task() {
-	int n = 0;
-	while (true) {
+
+	/*while (true) {
 		cout << "¬ведите размер массива" << '\n';
 		if (cin.fail()) {
 			cin.clear();
@@ -40,9 +25,9 @@ void Task() {
 		else {
 			break;
 		}
-	}
-	int *Mas = new int[n];
-	SortHora(Mas, 0, 0, 0, 0, 0, 0);
+	}*/
+	int Mas[15];
+	SortHora(Mas, 0, 14);
 }
 
 void gui() {
