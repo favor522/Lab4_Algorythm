@@ -43,7 +43,12 @@ body{
     height: 250px;
     margin: 0 auto;
   }
-
+.buttons_sort{
+    display: none;
+}
+.buttons_search{
+    display: none;
+}
   .table_log{
     display: none;
     border-color: white;
